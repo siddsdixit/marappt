@@ -286,25 +286,108 @@
             position: absolute !important;
             top: 50% !important;
             left: 50% !important;
+            transform: translate(-50%, -50%) !important;
             width: 450px !important;
             height: 450px !important;
             margin: 0 !important;
             padding: 0 !important;
-            animation: marveyOrbit 30s linear infinite;
-            transform-origin: center center;
-        }
-        
-        @keyframes marveyOrbit {
-            0% {
-                transform: translate(-50%, -50%) rotate(0deg);
-            }
-            100% {
-                transform: translate(-50%, -50%) rotate(360deg);
-            }
         }
         
         .marvey-agent {
             position: absolute !important;
+            transition: all 0.3s ease;
+        }
+        
+        .marvey-agent > div {
+            animation: agentGlow 3s ease-in-out infinite;
+            transition: all 0.3s ease;
+        }
+        
+        /* Staggered animation delays for random glow effect */
+        .marvey-agent:nth-child(1) > div { animation-delay: 0s; }
+        .marvey-agent:nth-child(2) > div { animation-delay: 0.4s; }
+        .marvey-agent:nth-child(3) > div { animation-delay: 0.8s; }
+        .marvey-agent:nth-child(4) > div { animation-delay: 1.2s; }
+        .marvey-agent:nth-child(5) > div { animation-delay: 1.6s; }
+        .marvey-agent:nth-child(6) > div { animation-delay: 2s; }
+        .marvey-agent:nth-child(7) > div { animation-delay: 2.4s; }
+        .marvey-agent:nth-child(8) > div { animation-delay: 2.8s; }
+        
+        @keyframes agentGlow {
+            0%, 100% {
+                box-shadow: 0 0 0 0 rgba(99, 102, 241, 0);
+                transform: scale(1);
+            }
+            50% {
+                box-shadow: 0 0 20px 8px rgba(99, 102, 241, 0.4);
+                transform: scale(1.05);
+            }
+        }
+        
+        /* Different glow colors for different agents */
+        .marvey-agent:nth-child(1) > div {
+            animation-name: agentGlow1;
+        }
+        .marvey-agent:nth-child(2) > div {
+            animation-name: agentGlow2;
+        }
+        .marvey-agent:nth-child(3) > div {
+            animation-name: agentGlow3;
+        }
+        .marvey-agent:nth-child(4) > div {
+            animation-name: agentGlow4;
+        }
+        .marvey-agent:nth-child(5) > div {
+            animation-name: agentGlow5;
+        }
+        .marvey-agent:nth-child(6) > div {
+            animation-name: agentGlow6;
+        }
+        .marvey-agent:nth-child(7) > div {
+            animation-name: agentGlow7;
+        }
+        .marvey-agent:nth-child(8) > div {
+            animation-name: agentGlow8;
+        }
+        
+        @keyframes agentGlow1 {
+            0%, 100% { box-shadow: 0 0 0 0 rgba(99, 102, 241, 0); transform: scale(1); }
+            50% { box-shadow: 0 0 20px 8px rgba(99, 102, 241, 0.5); transform: scale(1.05); }
+        }
+        @keyframes agentGlow2 {
+            0%, 100% { box-shadow: 0 0 0 0 rgba(245, 158, 11, 0); transform: scale(1); }
+            50% { box-shadow: 0 0 20px 8px rgba(245, 158, 11, 0.5); transform: scale(1.05); }
+        }
+        @keyframes agentGlow3 {
+            0%, 100% { box-shadow: 0 0 0 0 rgba(236, 72, 153, 0); transform: scale(1); }
+            50% { box-shadow: 0 0 20px 8px rgba(236, 72, 153, 0.5); transform: scale(1.05); }
+        }
+        @keyframes agentGlow4 {
+            0%, 100% { box-shadow: 0 0 0 0 rgba(167, 139, 250, 0); transform: scale(1); }
+            50% { box-shadow: 0 0 20px 8px rgba(167, 139, 250, 0.5); transform: scale(1.05); }
+        }
+        @keyframes agentGlow5 {
+            0%, 100% { box-shadow: 0 0 0 0 rgba(20, 184, 166, 0); transform: scale(1); }
+            50% { box-shadow: 0 0 20px 8px rgba(20, 184, 166, 0.5); transform: scale(1.05); }
+        }
+        @keyframes agentGlow6 {
+            0%, 100% { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0); transform: scale(1); }
+            50% { box-shadow: 0 0 20px 8px rgba(239, 68, 68, 0.5); transform: scale(1.05); }
+        }
+        @keyframes agentGlow7 {
+            0%, 100% { box-shadow: 0 0 0 0 rgba(100, 116, 139, 0); transform: scale(1); }
+            50% { box-shadow: 0 0 20px 8px rgba(100, 116, 139, 0.5); transform: scale(1.05); }
+        }
+        @keyframes agentGlow8 {
+            0%, 100% { box-shadow: 0 0 0 0 rgba(251, 191, 36, 0); transform: scale(1); }
+            50% { box-shadow: 0 0 20px 8px rgba(251, 191, 36, 0.5); transform: scale(1.05); }
+        }
+        
+        /* Hover effect for interactivity */
+        .marvey-agent:hover > div {
+            transform: scale(1.1) !important;
+            box-shadow: 0 0 30px 12px currentColor !important;
+            z-index: 20;
         }
         
         /* Marvey Icon Animations */
