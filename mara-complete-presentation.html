@@ -264,6 +264,38 @@
             color: #b0b0b0;
             text-transform: uppercase;
         }
+        
+        /* Marvey Agent Container - Ensure proper positioning on all platforms */
+        .marvey-container {
+            position: relative !important;
+            height: 400px !important;
+            margin: 30px auto !important;
+            max-width: 600px !important;
+            width: 100% !important;
+        }
+        
+        .marvey-center {
+            position: absolute !important;
+            top: 50% !important;
+            left: 50% !important;
+            transform: translate(-50%, -50%) !important;
+            z-index: 10 !important;
+        }
+        
+        .marvey-agents {
+            position: absolute !important;
+            top: 50% !important;
+            left: 50% !important;
+            transform: translate(-50%, -50%) !important;
+            width: 450px !important;
+            height: 450px !important;
+            margin: 0 !important;
+            padding: 0 !important;
+        }
+        
+        .marvey-agent {
+            position: absolute !important;
+        }
 
         /* Architecture Styles */
         .architecture-stack {
@@ -1731,9 +1763,9 @@
             <h1>Meet Marvey: The AI That Builds Our AI</h1>
             <p class="tagline">"An orchestrated swarm of specialized AI agents working 24/7"</p>
 
-            <div style="position: relative; height: 400px; margin: 30px auto; max-width: 600px;">
+            <div class="marvey-container">
                 
-                <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 10;">
+                <div class="marvey-center" style="width: 100px; height: 100px;">
                     <div style="width: 100px; height: 100px; background: #14b8a6; border-radius: 15px; display: flex; align-items: center; justify-content: center; position: relative;">
                         <div style="width: 80px; height: 80px; background: #0a0f0f; border-radius: 10px; display: flex; flex-direction: column; align-items: center; justify-content: center;">
                             <div style="display: flex; gap: 25px; margin-bottom: 12px;">
@@ -1746,50 +1778,50 @@
                     </div>
                 </div>
 
-                <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 450px; height: 450px;">
-                    <div style="position: absolute; top: 20px; left: 50%; transform: translateX(-50%); text-align: center;">
+                <div class="marvey-agents">
+                    <div class="marvey-agent" style="top: 20px; left: 50%; transform: translateX(-50%); text-align: center;">
                         <div style="width: 55px; height: 55px; background: #6366f1; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto;">
                             <span style="font-size: 1.5em;">📊</span>
                         </div>
                         <small style="color: #b0b0b0; font-size: 0.7em; display: block; margin-top: 5px;">Product<br>Manager</small>
                     </div>
-                    <div style="position: absolute; top: 75px; right: 75px; text-align: center;">
+                    <div class="marvey-agent" style="top: 75px; right: 75px; text-align: center;">
                         <div style="width: 55px; height: 55px; background: #f59e0b; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto;">
                             <span style="font-size: 1.5em;">🔍</span>
                         </div>
                         <small style="color: #b0b0b0; font-size: 0.7em; display: block; margin-top: 5px;">Solution<br>Architect</small>
                     </div>
-                    <div style="position: absolute; top: 50%; right: 20px; transform: translateY(-50%); text-align: center;">
+                    <div class="marvey-agent" style="top: 50%; right: 20px; transform: translateY(-50%); text-align: center;">
                         <div style="width: 55px; height: 55px; background: #ec4899; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto;">
                             <span style="font-size: 1.5em;">⚙️</span>
                         </div>
                         <small style="color: #b0b0b0; font-size: 0.7em; display: block; margin-top: 5px;">System<br>Architect</small>
                     </div>
-                    <div style="position: absolute; bottom: 75px; right: 75px; text-align: center;">
+                    <div class="marvey-agent" style="bottom: 75px; right: 75px; text-align: center;">
                         <div style="width: 55px; height: 55px; background: #a78bfa; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto;">
                             <span style="font-size: 1.5em;">🎨</span>
                         </div>
                         <small style="color: #b0b0b0; font-size: 0.7em; display: block; margin-top: 5px;">UX<br>Designer</small>
                     </div>
-                    <div style="position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%); text-align: center;">
+                    <div class="marvey-agent" style="bottom: 20px; left: 50%; transform: translateX(-50%); text-align: center;">
                         <div style="width: 55px; height: 55px; background: #14b8a6; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto;">
                             <span style="font-size: 1.5em;">💻</span>
                         </div>
                         <small style="color: #b0b0b0; font-size: 0.7em; display: block; margin-top: 5px;">Software<br>Developer</small>
                     </div>
-                    <div style="position: absolute; bottom: 75px; left: 75px; text-align: center;">
+                    <div class="marvey-agent" style="bottom: 75px; left: 75px; text-align: center;">
                         <div style="width: 55px; height: 55px; background: #ef4444; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto;">
                             <span style="font-size: 1.5em;">🔍</span>
                         </div>
                         <small style="color: #b0b0b0; font-size: 0.7em; display: block; margin-top: 5px;">QA<br>Engineer</small>
                     </div>
-                    <div style="position: absolute; top: 50%; left: 20px; transform: translateY(-50%); text-align: center;">
+                    <div class="marvey-agent" style="top: 50%; left: 20px; transform: translateY(-50%); text-align: center;">
                         <div style="width: 55px; height: 55px; background: #64748b; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto;">
                             <span style="font-size: 1.5em;">🔒</span>
                         </div>
                         <small style="color: #b0b0b0; font-size: 0.7em; display: block; margin-top: 5px;">Security<br>Engineer</small>
                     </div>
-                    <div style="position: absolute; top: 75px; left: 75px; text-align: center;">
+                    <div class="marvey-agent" style="top: 75px; left: 75px; text-align: center;">
                         <div style="width: 55px; height: 55px; background: #fbbf24; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto;">
                             <span style="font-size: 1.5em;">📈</span>
                         </div>
