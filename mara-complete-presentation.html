@@ -18,6 +18,100 @@
             overflow: hidden;
         }
 
+        /* Password Protection */
+        .password-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 100%);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            z-index: 10000;
+            transition: opacity 0.5s ease-out;
+        }
+
+        .password-overlay.hidden {
+            opacity: 0;
+            pointer-events: none;
+        }
+
+        .password-container {
+            text-align: center;
+            padding: 40px;
+            background: rgba(0, 0, 0, 0.8);
+            border: 2px solid rgba(247, 147, 26, 0.3);
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+            max-width: 400px;
+            width: 90%;
+        }
+
+        .password-container h2 {
+            color: #ffd700;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+            background: linear-gradient(135deg, #f7931a 0%, #ffb84d 50%, #ffd700 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .password-container p {
+            color: #b0b0b0;
+            margin-bottom: 25px;
+            font-size: 0.95em;
+        }
+
+        .password-input {
+            width: 100%;
+            padding: 15px 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border: 2px solid rgba(247, 147, 26, 0.3);
+            border-radius: 10px;
+            color: #fff;
+            font-size: 1.1em;
+            margin-bottom: 15px;
+            outline: none;
+            transition: border-color 0.3s;
+        }
+
+        .password-input:focus {
+            border-color: #f7931a;
+        }
+
+        .password-submit {
+            width: 100%;
+            padding: 15px;
+            background: linear-gradient(135deg, #f7931a, #ffd700);
+            border: none;
+            border-radius: 10px;
+            color: #000;
+            font-size: 1.1em;
+            font-weight: bold;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .password-submit:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 20px rgba(247, 147, 26, 0.4);
+        }
+
+        .password-error {
+            color: #ef4444;
+            margin-top: 10px;
+            font-size: 0.9em;
+            display: none;
+        }
+
+        .password-error.show {
+            display: block;
+        }
+
         .presentation-container {
             width: 100vw;
             height: 100vh;
@@ -618,11 +712,22 @@
     </style>
 </head>
 <body>
+    <!-- Password Protection Overlay -->
+    <div class="password-overlay" id="passwordOverlay">
+        <div class="password-container">
+            <h2>🔒 Protected Presentation</h2>
+            <p>Enter the password to access the MARA CTO presentation</p>
+            <input type="password" class="password-input" id="passwordInput" placeholder="Enter password" autocomplete="off" autofocus>
+            <button class="password-submit" onclick="checkPassword()">Access Presentation</button>
+            <div class="password-error" id="passwordError">Incorrect password. Please try again.</div>
+        </div>
+    </div>
+
     <div class="progress-bar">
         <div class="progress-fill" id="progressFill"></div>
     </div>
 
-    <div class="presentation-container">
+    <div class="presentation-container" id="presentationContainer" style="display: none;">
 
         <!-- Slide 1: Title Slide -->
         <div class="slide active title-slide">
@@ -1136,6 +1241,69 @@
         </style>
 
         <script>
+            // Password Protection
+            const CORRECT_PASSWORD = 'marvey'; // The AI that builds AI
+            
+            function checkPassword() {
+                const input = document.getElementById('passwordInput');
+                const error = document.getElementById('passwordError');
+                const overlay = document.getElementById('passwordOverlay');
+                const container = document.getElementById('presentationContainer');
+                
+                if (input.value.toLowerCase() === CORRECT_PASSWORD) {
+                    // Correct password - hide overlay and show presentation
+                    overlay.classList.add('hidden');
+                    container.style.display = 'block';
+                    // Store in sessionStorage so password persists during session
+                    sessionStorage.setItem('presentationUnlocked', 'true');
+                    // Initialize presentation
+                    setTimeout(() => {
+                        if (typeof initializePresentation === 'function') {
+                            initializePresentation();
+                        }
+                    }, 100);
+                } else {
+                    // Wrong password - show error
+                    error.classList.add('show');
+                    input.value = '';
+                    input.focus();
+                    // Shake animation
+                    input.style.animation = 'shake 0.5s';
+                    setTimeout(() => {
+                        input.style.animation = '';
+                    }, 500);
+                }
+            }
+            
+            // Allow Enter key to submit
+            document.addEventListener('DOMContentLoaded', function() {
+                const passwordInput = document.getElementById('passwordInput');
+                if (passwordInput) {
+                    passwordInput.addEventListener('keypress', function(e) {
+                        if (e.key === 'Enter') {
+                            checkPassword();
+                        }
+                    });
+                }
+                
+                // Check if already unlocked in this session
+                if (sessionStorage.getItem('presentationUnlocked') === 'true') {
+                    document.getElementById('passwordOverlay').classList.add('hidden');
+                    document.getElementById('presentationContainer').style.display = 'block';
+                }
+            });
+            
+            // Add shake animation
+            const style = document.createElement('style');
+            style.textContent = `
+                @keyframes shake {
+                    0%, 100% { transform: translateX(0); }
+                    25% { transform: translateX(-10px); }
+                    75% { transform: translateX(10px); }
+                }
+            `;
+            document.head.appendChild(style);
+            
             // Dynamic workload balancing simulation for Slide 5
             function initializeWorkloadSimulation() {
                 // Market scenarios for dynamic switching
