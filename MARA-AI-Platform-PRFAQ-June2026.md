@@ -1,8 +1,7 @@
-# MARA AI Platform: PRFAQ
-## Press Release & Frequently Asked Questions
+# MARA AI Platform: Press Release & FAQ
+**For External Distribution**  
 **Date:** June 15, 2026  
-**Document Version:** 1.0  
-**Status:** 6-Month Post-Launch Retrospective
+**Contact:** press@mara.com
 
 ---
 
@@ -10,228 +9,223 @@
 
 ### FOR IMMEDIATE RELEASE
 
-**MARA Holdings Launches Revolutionary AI Platform, Transforms from $6.35B Mining Company to $160B AI Infrastructure Leader**
+**MARA AI Platform Launches, Enabling Any Business to Deploy Production AI in Minutes**
 
-*MARA AI Studio with Marvey AI Orchestration System Enables Enterprises to Deploy Production AI in Minutes, Not Months*
+*New platform eliminates months of infrastructure work, allowing non-technical teams to build and deploy AI agents that automate business processes*
 
-**DALLAS, TX – June 15, 2026** – MARA Holdings (NASDAQ: MARA), the world's leading hybrid compute infrastructure company, today announced the successful launch of MARA AI Platform, a comprehensive Platform-as-a-Service (PaaS) and Agentic AI solution that has transformed the company from a Bitcoin mining operation into a dominant AI infrastructure platform.
+**DALLAS, TX – June 15, 2026** – MARA Holdings (NASDAQ: MARA) today announced the general availability of MARA AI Platform, a revolutionary platform that enables businesses of any size to deploy production AI workloads in minutes—without infrastructure expertise, coding, or months of setup time.
 
-The platform, which leverages MARA's unique hybrid compute infrastructure combining 85,000+ GPUs with 250,000+ ASICs across 1.8GW of power capacity, has achieved remarkable milestones in its first six months of operation:
+The platform has already transformed how hundreds of enterprises approach AI, with customers reporting deployment times reduced from months to minutes, and cost savings of up to 95% compared to traditional cloud providers.
 
-- **$6.4B in AI revenue** (88% of total $7.3B revenue)
-- **50,000+ enterprise AI agents** deployed across 500+ customers
-- **98% infrastructure utilization** through intelligent Bitcoin-AI workload switching
-- **$0.002 per inference** cost structure, 85% gross margins
-- **99.95% platform uptime** with sub-100ms workload switching
+**"Every business leader knows AI will transform their industry, but most are stuck because deploying AI is too complex, too expensive, or requires teams they don't have,"** said Fred Thiel, CEO of MARA Holdings. **"MARA AI Platform changes that. We've removed every barrier—no coding required, no infrastructure to manage, no months of waiting. If you can use a spreadsheet, you can build an AI agent that automates your business processes."**
 
-**"We've fundamentally redefined what's possible in AI infrastructure,"** said Fred Thiel, CEO of MARA Holdings. **"By combining our Bitcoin mining expertise with AI compute capabilities, we've created something unprecedented: a platform that dynamically optimizes between two massive markets, delivering unmatched cost efficiency and reliability. Our customers are deploying production AI workloads in minutes that would have taken them months to build internally."**
+### What Customers Are Saying
 
-### The Marvey Breakthrough
+Since launching six months ago, MARA AI Platform has been adopted by over 500 enterprises across industries, from Fortune 500 companies to fast-growing startups.
 
-At the heart of MARA AI Platform is **Marvey**, an orchestrated swarm of eight specialized AI agents that work 24/7 to build, deploy, and optimize AI systems. Unlike traditional single-AI approaches, Marvey uses specialized agents for Product Management, Solution Architecture, System Architecture, UX Design, Software Development, QA Engineering, Security, and Marketing Analytics.
+**"We automated our entire customer support operation in one afternoon,"** said Sarah Chen, VP of Operations at a leading financial services company. **"Our team built AI agents that handle 80% of support tickets automatically, with zero coding. The visual workflow builder made it so simple—our operations manager, who has no technical background, built the first agent herself. We're saving $2M annually in support costs while improving response times."**
 
-**"Marvey isn't one AI doing everything poorly—it's eight specialized AIs doing their jobs perfectly,"** explained the MARA AI Platform engineering team. **"This architecture has enabled us to ship features 30x faster than traditional teams, with zero coordination overhead. We've proven this internally by building and deploying our own platform in record time."**
+**"The cost difference is staggering,"** noted James Rodriguez, CTO of a global logistics company. **"We were paying over $50M per year for AI inference on traditional cloud platforms. With MARA, we're paying under $1M for the same workload. That's a 98% cost reduction. And the platform is more reliable—we've had zero downtime in six months."**
 
-### Enterprise Adoption
+**"We went from idea to production in 5 minutes,"** said Michael Park, Head of Product at a healthcare technology startup. **"We needed to automate patient intake forms, and our engineering team estimated it would take 3 months. With MARA AI Platform, our product manager built the agent in 5 minutes using the pre-built templates. We launched the same day."**
 
-Major enterprises have rapidly adopted MARA AI Platform for its unique combination of simplicity and power:
+### The Problem MARA Solves
 
-**"We went from zero AI capabilities to production deployment in under 5 minutes,"** said Sarah Chen, VP of Operations at a Fortune 500 financial services company. **"The visual workflow builder and pre-built agent templates meant our non-technical team could automate complex business processes without writing a single line of code. This is exactly what we needed."**
+Enterprises face three critical barriers to AI adoption:
 
-**"The cost savings are extraordinary,"** noted James Rodriguez, CTO of a global logistics company. **"We're paying $0.002 per inference compared to $0.10+ on hyperscalers. At our scale, that's $50M in annual savings. Plus, the 98% utilization rate means we're getting maximum value from every GPU cycle."**
+1. **Complexity**: Deploying AI requires months of infrastructure setup, model training, and deployment configuration—work that requires specialized engineering teams most companies don't have.
 
-### Technical Innovation
+2. **Cost**: Traditional cloud providers charge $0.10+ per AI inference. At enterprise scale, this costs millions annually. Many companies can't justify the ROI.
 
-MARA AI Platform's technical architecture addresses the critical challenge of abstracting infrastructure complexity while maintaining performance and reliability:
+3. **Accessibility**: Building AI systems requires coding and machine learning expertise. Business users who understand their processes can't build the AI solutions they need.
 
-- **Black Box Infrastructure Abstraction**: Provider adapter pattern ensures reliability, sovereignty, and scalability without internal visibility into partner IaaS layers
-- **Synthetic Monitoring & Edge Telemetry**: Real-time observability across infrastructure layers with behavioral verification
-- **State Reconciliation**: Automatic recovery from infrastructure failures with <100ms switching between Bitcoin and AI workloads
-- **Build vs. Buy vs. Partner Strategy**: Strategic decisions that balance speed, cost, and control
+MARA AI Platform eliminates all three barriers through a unique combination of simplicity, cost efficiency, and accessibility.
 
-**"The black box abstraction layer was crucial,"** said the MARA Platform CTO. **"We needed to integrate with partner infrastructure without internal visibility, while still ensuring enterprise-grade reliability. Our provider adapter pattern, combined with synthetic monitoring and behavioral verification, gives us the confidence to deliver 99.95% uptime SLAs."**
+### How It Works
+
+MARA AI Platform provides three core capabilities:
+
+**1. Visual AI Studio**  
+A no-code, visual workflow builder that lets anyone create AI agents by dragging and dropping components. No coding required. Business users can build agents in minutes that would take engineering teams weeks to develop.
+
+**2. Pre-Built Agent Templates**  
+Hundreds of ready-to-use AI agent templates for common business processes: customer support, sales qualification, invoice processing, resume screening, workflow automation, and more. Customers can deploy these templates instantly and customize them to their needs.
+
+**3. Enterprise-Grade Infrastructure**  
+Built on MARA's unique hybrid compute infrastructure, the platform delivers AI inference at $0.002 per request—20x cheaper than traditional cloud providers—with 99.95% uptime and sub-200ms response times.
+
+**"The magic is in the simplicity,"** said Fred Thiel. **"We've taken everything that makes AI deployment complex—infrastructure, coding, model training, deployment—and made it invisible. Customers just describe what they want to automate, and the platform handles the rest."**
+
+### Real Customer Results
+
+Customers are seeing dramatic results:
+
+- **Deployment Speed**: 5 minutes vs. 3-6 months with traditional approaches
+- **Cost Savings**: 50-95% reduction in AI infrastructure costs
+- **Productivity Gains**: 30-80% reduction in manual work through automation
+- **Time to Value**: Days instead of months
+- **Reliability**: 99.95% uptime vs. 99.5% industry average
+
+**"We've automated processes that used to take our team 40 hours per week,"** said Lisa Thompson, Operations Director at a manufacturing company. **"Now those same processes run automatically 24/7, and our team focuses on higher-value work. The ROI was immediate."**
+
+### Technical Excellence
+
+MARA AI Platform is built on enterprise-grade infrastructure:
+
+- **99.95% Uptime SLA**: Industry-leading reliability with automatic failover
+- **Sub-200ms Latency**: Fast enough for real-time applications
+- **SOC 2, HIPAA, GDPR Compliant**: Enterprise security and compliance built-in
+- **Unlimited Scale**: Handles everything from startups to Fortune 500 workloads
+- **Global Infrastructure**: Deployed across multiple regions for low latency
+
+**"Enterprise customers need reliability and security, not just low prices,"** said Fred Thiel. **"We deliver both. Our infrastructure is built for mission-critical workloads, with the same security and compliance standards that Fortune 500 companies require."**
 
 ### Market Impact
 
-MARA's transformation has reshaped the AI infrastructure market:
+The AI infrastructure market is exploding, with global spending expected to reach $65B by 2027. MARA AI Platform is positioned to capture significant market share by making AI accessible to businesses that couldn't afford or deploy it before.
 
-- **Market Cap Growth**: From $6.35B (pure-play Bitcoin miner) to $160B (AI platform leader)
-- **Revenue Multiple**: 25x AI revenue multiple vs. 6.7x mining multiple
-- **Competitive Advantage**: 41x economic advantage over pure-play AI companies through hybrid compute optimization
-- **Industry Recognition**: Named "AI Infrastructure Company of the Year" by TechCrunch
+**"We're democratizing AI,"** said Fred Thiel. **"Right now, only the largest companies with big engineering teams can deploy AI at scale. We're changing that. Any business, of any size, can now deploy production AI. That's a massive market opportunity."**
 
-### Financial Performance
+### Pricing and Availability
 
-The platform's financial performance has exceeded all projections:
+MARA AI Platform is available now with three pricing options:
 
-- **Total Revenue**: $7.3B (up from $940M pre-platform)
-- **AI Revenue**: $6.4B (88% of total, up from 0%)
-- **Gross Margins**: 85% (vs. 60% industry average)
-- **EBITDA**: $5.2B (vs. $794M pre-platform)
-- **Market Cap**: $160B (vs. $6.35B pre-platform)
+- **Pay-as-you-go**: $0.002 per AI inference (vs. $0.10+ on traditional platforms)
+- **Enterprise Plans**: Starting at $10,000/month with volume discounts
+- **Custom Plans**: For large enterprises with dedicated infrastructure
 
-**"This is a complete transformation,"** said Fred Thiel. **"We've gone from a commodity Bitcoin mining business with volatile earnings to a high-margin, recurring-revenue SaaS platform. The market has recognized this shift, and our valuation reflects the premium multiple that software companies command."**
-
-### Future Roadmap
-
-MARA AI Platform continues to evolve, with plans to:
-
-- Expand to 100,000+ GPUs by end of 2026
-- Launch industry-specific agent templates (healthcare, finance, manufacturing)
-- Introduce self-service marketplace for custom AI agents
-- Achieve 99.99% uptime through enhanced redundancy
-
-**"We're just getting started,"** said Fred Thiel. **"The AI infrastructure market is exploding, and we're positioned to capture a significant share. Our hybrid compute model gives us a structural advantage that no pure-play competitor can match."**
+The platform includes a free tier for testing and development, with no credit card required.
 
 ### About MARA Holdings
 
-MARA Holdings is the world's leading hybrid compute infrastructure company, operating 85,000+ GPUs and 250,000+ ASICs across 1.8GW of power capacity. The company's MARA AI Platform enables enterprises to deploy production AI workloads in minutes, leveraging unique infrastructure that dynamically optimizes between Bitcoin mining and AI inference based on real-time economic signals.
+MARA Holdings is the world's leading hybrid compute infrastructure company, operating one of the largest GPU and ASIC fleets globally. The company's unique infrastructure enables it to deliver AI compute at unprecedented cost efficiency while maintaining enterprise-grade reliability.
 
-For more information, visit www.mara.com/ai-platform
+For more information, visit www.mara.com/ai-platform or contact sales@mara.com
 
 ---
 
 ## FREQUENTLY ASKED QUESTIONS
 
-### Product & Technology
+### For Business Leaders
 
-**Q: What exactly is MARA AI Platform?**  
-A: MARA AI Platform is a comprehensive Platform-as-a-Service (PaaS) and Agentic AI solution that enables enterprises to deploy, scale, and manage AI workloads without infrastructure expertise. It consists of three layers: (1) AI Studio with visual workflow builder, (2) Agentic AI runtime with pre-built business process templates, and (3) Infrastructure abstraction layer that works with partner IaaS providers.
+**Q: What is MARA AI Platform and why should I care?**  
+A: MARA AI Platform lets your team deploy production AI in minutes, without coding or infrastructure expertise. If you have business processes that could be automated—customer support, data entry, document processing, workflow management—MARA makes it simple. Your team can build AI agents using a visual interface, deploy them instantly, and start seeing results immediately.
 
-**Q: How is this different from AWS, Azure, or Google Cloud?**  
-A: Three key differentiators: (1) **Simplicity**: Non-technical users can build AI agents in minutes using visual workflows, not code. (2) **Cost**: $0.002 per inference vs. $0.10+ on hyperscalers through our hybrid compute optimization. (3) **Specialization**: Pre-built agent templates for common business processes (sales, support, HR, finance) vs. generic compute infrastructure.
+**Q: Do I need a technical team to use this?**  
+A: No. MARA AI Platform is designed for business users. The visual workflow builder works like a flowchart—you drag and drop components to build AI agents. No coding required. Many of our customers have non-technical teams building and deploying AI agents successfully.
 
-**Q: What is Marvey and why is it important?**  
-A: Marvey is our internal AI orchestration system—eight specialized AI agents working together 24/7 to build, deploy, and optimize AI systems. This architecture enables us to ship features 30x faster than traditional teams. We've proven this works internally and are now offering similar agentic capabilities to our customers through the platform.
+**Q: How much does it cost?**  
+A: We offer flexible pricing. Pay-as-you-go starts at $0.002 per AI inference (compared to $0.10+ on traditional platforms). Enterprise plans start at $10,000/month with volume discounts. Most customers see 50-95% cost savings compared to traditional cloud providers.
 
-**Q: How does the hybrid compute model work?**  
-A: Our infrastructure dynamically switches between Bitcoin mining and AI inference workloads based on real-time economic signals. When AI demand is high, we allocate resources to inference. When Bitcoin mining is more profitable, we switch back. This achieves 98% utilization vs. 60% industry average, and enables our $0.002 per inference cost structure.
+**Q: How long does it take to get started?**  
+A: Most customers deploy their first AI agent in under 5 minutes. You can sign up, choose a pre-built template, customize it to your needs, and deploy—all in the same session. No infrastructure setup, no waiting.
 
-**Q: What is "Black Box Infrastructure Abstraction" and why does it matter?**  
-A: We integrate with partner IaaS providers without internal visibility into their architecture. Our provider adapter pattern, combined with synthetic monitoring, edge telemetry, and behavioral verification, ensures reliability and scalability despite this "black box" constraint. This allows us to work with any infrastructure provider while maintaining enterprise-grade SLAs.
+**Q: What kind of business processes can I automate?**  
+A: Common use cases include: customer support ticket routing and responses, sales lead qualification, invoice and document processing, resume screening and candidate matching, workflow automation, data extraction from documents, content generation, and more. If it's a repetitive process, you can likely automate it with MARA.
 
-**Q: How fast can customers deploy AI workloads?**  
-A: Customers can go from zero to production AI in under 5 minutes using our visual workflow builder and pre-built agent templates. Traditional approaches require weeks or months of infrastructure setup, model training, and deployment configuration.
+**Q: Is this secure and compliant?**  
+A: Yes. MARA AI Platform is SOC 2 Type II, HIPAA, and GDPR compliant. We use enterprise-grade encryption, role-based access control, and comprehensive audit logging. Many Fortune 500 companies trust us with their sensitive data.
 
-**Q: What compliance and security features are included?**  
-A: SOC 2 Type II, HIPAA, GDPR compliance built-in from day one. Enterprise-grade security with encryption at rest and in transit, role-based access control, audit logging, and automated security scanning.
+**Q: What if I need help?**  
+A: We offer 24/7 support for all customers, with dedicated customer success managers for enterprise accounts. Our documentation is comprehensive, and we have a library of video tutorials. Most customers find the platform intuitive enough that they don't need much support.
 
-### Business Model & Pricing
+### For Technical Teams
 
-**Q: What is the pricing model?**  
-A: Three tiers: (1) **Pay-per-inference**: $0.002 per inference (vs. $0.10+ on hyperscalers). (2) **Subscription**: $10K-$100K/month for enterprise customers with volume discounts. (3) **Custom**: Dedicated infrastructure and SLAs for large enterprises.
+**Q: How does this compare to building AI infrastructure ourselves?**  
+A: Building AI infrastructure typically takes 3-6 months and requires specialized engineering teams. MARA AI Platform eliminates that work—you get production-ready infrastructure immediately. You also get 20x lower costs ($0.002 vs. $0.10+ per inference) and better reliability (99.95% uptime vs. 99.5% industry average).
 
-**Q: How do you achieve 85% gross margins?**  
-A: Three factors: (1) **Hybrid compute optimization**: 98% utilization vs. 60% industry average. (2) **Low power costs**: $0.04/kWh vs. $0.10+ for competitors. (3) **Software margins**: Platform is software, not just infrastructure resale.
+**Q: Can I integrate this with our existing systems?**  
+A: Yes. MARA AI Platform provides REST APIs, webhooks, and integrations with common enterprise systems (Salesforce, Slack, Microsoft 365, Google Workspace, etc.). You can also deploy agents on-premises or in your own cloud if needed.
 
-**Q: What is the revenue breakdown?**  
-A: As of June 2026: 88% AI revenue ($6.4B), 12% Bitcoin mining ($900M). We expect AI revenue to grow to 95%+ by end of 2026 as we scale the platform.
+**Q: What about model customization and fine-tuning?**  
+A: The platform includes tools for fine-tuning models on your data. You can also bring your own models if you prefer. The platform handles deployment, scaling, and monitoring regardless of which models you use.
 
-**Q: How does this compare to competitors like Core Scientific or Crusoe?**  
-A: Key advantages: (1) **Scale**: 85,000+ GPUs vs. 20,000 for Crusoe, 0 for Core Scientific. (2) **Platform**: Full PaaS + Agentic AI vs. just infrastructure hosting. (3) **Proven**: 500+ customers, 50,000+ agents deployed vs. early-stage competitors.
+**Q: How does the infrastructure work?**  
+A: MARA operates a unique hybrid compute infrastructure that dynamically optimizes between different workloads. This enables us to deliver AI compute at $0.002 per inference—20x cheaper than traditional cloud providers—while maintaining 99.95% uptime and sub-200ms latency.
 
-### Market & Strategy
+**Q: What's the architecture?**  
+A: MARA AI Platform uses a three-layer architecture: (1) Visual AI Studio for building agents, (2) Agentic AI runtime for executing agents, and (3) Infrastructure abstraction layer that works with multiple cloud providers. This architecture ensures reliability, scalability, and cost efficiency.
 
-**Q: Why did MARA pivot from Bitcoin mining to AI?**  
-A: Not a pivot—a transformation. We're leveraging our Bitcoin mining infrastructure (power, cooling, data centers) to also serve the exploding AI inference market. This hybrid model maximizes asset utilization and creates a structural cost advantage.
+**Q: How do you ensure reliability?**  
+A: We use multiple techniques: provider adapter patterns for infrastructure abstraction, synthetic monitoring for real-time health checks, edge telemetry for observability, and automatic state reconciliation for failure recovery. This enables 99.95% uptime with automatic failover.
 
-**Q: What is the market opportunity?**  
-A: Global AI inference market: $15B (2024) → $65B (2027), growing at 45% CAGR. Enterprise demand for secure, compliant AI infrastructure is exploding. We're positioned to capture significant share through our unique hybrid compute model.
+### For Enterprise Buyers
 
-**Q: How do you compete with hyperscalers (AWS, Azure, GCP)?**  
-A: We don't compete head-on. We focus on: (1) **Simplicity**: Non-technical users vs. their developer-focused tools. (2) **Cost**: 20x lower inference costs through hybrid optimization. (3) **Specialization**: Pre-built agent templates vs. generic compute.
+**Q: What SLAs do you offer?**  
+A: We offer 99.95% uptime SLA for enterprise customers, with financial credits if we miss it. We also guarantee sub-200ms latency (P95) and provide dedicated support with response time SLAs.
 
-**Q: What is the Build vs. Buy vs. Partner strategy?**  
-A: We build core platform capabilities (orchestration, agent runtime, abstraction layer), buy best-in-class components (monitoring, security tools), and partner for infrastructure (IaaS providers). This balances speed, cost, and control.
+**Q: What compliance certifications do you have?**  
+A: SOC 2 Type II, HIPAA, GDPR, and ISO 27001. We're also working toward additional industry-specific certifications based on customer demand.
 
-### Execution & Operations
+**Q: Can we deploy on-premises or in our own cloud?**  
+A: Yes. We offer on-premises and private cloud deployment options for enterprise customers with specific security or compliance requirements.
 
-**Q: How did you ship the platform in 6-9 months?**  
-A: Three factors: (1) **Marvey AI system**: Enabled 30x faster development than traditional teams. (2) **Exaion acquisition**: Brought 1,250 GPUs, 4 data centers, and enterprise relationships. (3) **Focused MVP**: Launched with core capabilities, iterated based on customer feedback.
+**Q: What kind of support do you provide?**  
+A: Enterprise customers get dedicated customer success managers, 24/7 support with guaranteed response times, priority access to new features, and custom training for their teams.
 
-**Q: What were the biggest risks and how did you mitigate them?**  
-A: Key risks: (1) **Infrastructure reliability**: Mitigated through black box abstraction layer and synthetic monitoring. (2) **Customer adoption**: Mitigated through visual workflow builder and pre-built templates. (3) **Competition**: Mitigated through hybrid compute cost advantage and first-mover positioning.
+**Q: How do you handle data privacy and security?**  
+A: We use enterprise-grade encryption (at rest and in transit), role-based access control, comprehensive audit logging, and regular security audits. Customer data is isolated and never used for training our models unless explicitly authorized.
 
-**Q: How do you measure success?**  
-A: Key metrics: (1) **Revenue**: $6.4B AI revenue in first 6 months. (2) **Customers**: 500+ enterprises, 50,000+ agents deployed. (3) **Platform**: 99.95% uptime, <200ms latency (P95). (4) **Efficiency**: 98% utilization, 85% gross margins.
+**Q: What's your roadmap?**  
+A: We're continuously adding new agent templates, integrations, and capabilities. Upcoming features include industry-specific templates (healthcare, finance, manufacturing), a marketplace for custom agents, and enhanced analytics. Enterprise customers get input into our roadmap priorities.
 
-**Q: What is the organization structure?**  
-A: Engineering pods: (1) Platform Core (orchestration, runtime), (2) Agent Systems (Marvey, templates), (3) Infrastructure (abstraction, monitoring), (4) Developer Experience (APIs, SDKs, docs). Each pod is 4-6 engineers with clear ownership.
+### For Investors and Analysts
 
-### Customer Success
+**Q: What's the market opportunity?**  
+A: The global AI inference market is projected to reach $65B by 2027, growing at 45% CAGR. MARA AI Platform addresses the largest segment—enterprises that want to deploy AI but lack the technical expertise or budget for traditional approaches.
 
-**Q: Who are your target customers?**  
-A: Two segments: (1) **Enterprise IT teams**: Deploying production AI workloads at scale. (2) **Business users**: Non-technical employees automating their work (sales, support, HR, finance).
+**Q: What's your competitive advantage?**  
+A: Three key advantages: (1) **Cost**: 20x lower inference costs through hybrid compute optimization. (2) **Simplicity**: No-code platform accessible to non-technical users. (3) **Infrastructure**: Unique hybrid compute model with 98% utilization vs. 60% industry average.
 
-**Q: What are typical use cases?**  
-A: Common deployments: (1) **Sales**: Lead qualification, opportunity scoring. (2) **Support**: Automated ticket routing, response generation. (3) **HR**: Resume screening, candidate matching. (4) **Finance**: Invoice processing, expense categorization. (5) **Operations**: Workflow orchestration, process automation.
+**Q: How do you scale?**  
+A: Our hybrid compute infrastructure enables us to scale efficiently. We can add capacity quickly, and our cost structure improves with scale. We're currently operating 85,000+ GPUs and plan to expand to 100,000+ by end of 2026.
 
-**Q: How do you ensure customer success?**  
-A: Three pillars: (1) **Ease of use**: Visual workflow builder, pre-built templates, no-code deployment. (2) **Reliability**: 99.95% uptime SLA, automatic failover, state reconciliation. (3) **Support**: Dedicated customer success team, 24/7 support, comprehensive documentation.
+**Q: What's the business model?**  
+A: Three revenue streams: (1) Pay-as-you-go inference pricing, (2) Enterprise subscription plans, and (3) Custom enterprise contracts. The platform has 85% gross margins and strong unit economics.
 
-**Q: What is customer feedback saying?**  
-A: Key themes: (1) **Speed**: "Deployed in 5 minutes vs. 3 months internally." (2) **Cost**: "50x cheaper than hyperscalers at our scale." (3) **Simplicity**: "Non-technical team can build agents without coding." (4) **Reliability**: "99.95% uptime is better than our internal systems."
+**Q: Who are your competitors?**  
+A: We compete with hyperscalers (AWS, Azure, GCP) on cost and simplicity, and with AI infrastructure companies (Core Scientific, Crusoe) on platform capabilities. Our unique hybrid compute model and no-code platform differentiate us from both.
 
-### Financial & Valuation
-
-**Q: How has this impacted MARA's valuation?**  
-A: Market cap grew from $6.35B (pure-play Bitcoin miner, 6.7x revenue multiple) to $160B (AI platform leader, 25x revenue multiple). The market recognizes the shift from commodity mining to high-margin SaaS platform.
-
-**Q: What are the key financial metrics?**  
-A: As of June 2026: (1) **Revenue**: $7.3B (up from $940M). (2) **AI Revenue**: $6.4B (88% of total). (3) **Gross Margins**: 85% (vs. 60% industry average). (4) **EBITDA**: $5.2B (vs. $794M pre-platform).
-
-**Q: What is the path to profitability?**  
-A: Already profitable. Platform achieved positive EBITDA in month 3, driven by: (1) High gross margins (85%), (2) Efficient infrastructure utilization (98%), (3) Software-based business model (low marginal costs).
-
-**Q: How do you justify the 25x revenue multiple?**  
-A: Comparable to other high-growth SaaS platforms: (1) **Recurring revenue**: 88% of revenue is recurring AI subscriptions. (2) **High margins**: 85% gross margins vs. 60% industry average. (3) **Market leadership**: First-mover in hybrid compute AI infrastructure. (4) **Growth**: 45% CAGR in AI inference market.
-
-### Future & Roadmap
-
-**Q: What's next for the platform?**  
-A: Key initiatives: (1) **Scale**: Expand to 100,000+ GPUs by end of 2026. (2) **Templates**: Industry-specific agent templates (healthcare, finance, manufacturing). (3) **Marketplace**: Self-service marketplace for custom AI agents. (4) **Reliability**: Achieve 99.99% uptime through enhanced redundancy.
-
-**Q: How do you plan to maintain competitive advantage?**  
-A: Three moats: (1) **Infrastructure**: Hybrid compute model with 98% utilization and $0.04/kWh power costs. (2) **Platform**: Network effects as more agents and templates are added. (3) **Data**: Customer usage patterns improve agent templates and recommendations.
-
-**Q: What are the biggest opportunities?**  
-A: (1) **Market expansion**: AI inference market growing 45% CAGR. (2) **Vertical expansion**: Industry-specific templates and compliance features. (3) **Geographic expansion**: Deploy infrastructure in Asia-Pacific and Europe. (4) **Platform ecosystem**: Third-party developers building on our platform.
-
-**Q: What keeps you up at night?**  
-A: Key concerns: (1) **Infrastructure scaling**: Ensuring reliability as we scale to 100,000+ GPUs. (2) **Competition**: Hyperscalers could lower prices or improve ease of use. (3) **Regulation**: AI regulation could impact customer adoption. (4) **Technology shifts**: New AI architectures could disrupt our platform.
+**Q: What are your key metrics?**  
+A: Key metrics include: customer count (500+), AI agents deployed (50,000+), revenue growth, gross margins (85%), platform uptime (99.95%), and customer retention. We're seeing strong growth across all metrics.
 
 ---
 
-## INTERNAL NOTES
+## CUSTOMER QUOTES FOR MEDIA USE
 
-### Key Assumptions Validated
+**"MARA AI Platform transformed how we work. We automated processes that used to take 40 hours per week, and our team now focuses on strategic work instead of repetitive tasks."**  
+— Lisa Thompson, Operations Director, Manufacturing Company
 
-✅ **Hybrid compute model works**: 98% utilization achieved, $0.002 per inference cost structure validated  
-✅ **Black box abstraction is feasible**: Provider adapter pattern + synthetic monitoring ensures reliability  
-✅ **Non-technical users can build agents**: Visual workflow builder + pre-built templates drive adoption  
-✅ **Marvey architecture scales**: 30x faster development validated, now offering to customers  
-✅ **Market demand is real**: 500+ customers, 50,000+ agents deployed in 6 months  
+**"The cost savings are extraordinary. We reduced our AI infrastructure costs by 98% while improving reliability. That's $50M in annual savings."**  
+— James Rodriguez, CTO, Global Logistics Company
 
-### Key Learnings
+**"We went from zero AI capabilities to production deployment in 5 minutes. Our operations manager, who has no technical background, built the first agent herself."**  
+— Sarah Chen, VP of Operations, Financial Services Company
 
-1. **Simplicity is critical**: Non-technical users need visual workflows, not APIs
-2. **Pre-built templates drive adoption**: 80% of customers start with templates vs. building from scratch
-3. **Cost advantage is compelling**: 20x lower inference costs drive enterprise adoption
-4. **Reliability is non-negotiable**: 99.95% uptime SLA is table stakes for enterprise customers
-5. **Hybrid compute is a moat**: Competitors can't match our 98% utilization and $0.04/kWh power costs
+**"The visual workflow builder is so intuitive. If you can use a spreadsheet, you can build an AI agent. That's the game-changer."**  
+— Michael Park, Head of Product, Healthcare Technology Startup
 
-### Success Metrics Achieved
-
-- ✅ $6.4B AI revenue (target: $2B)
-- ✅ 500+ customers (target: 50)
-- ✅ 50,000+ agents deployed (target: 10,000)
-- ✅ 99.95% uptime (target: 99.9%)
-- ✅ 85% gross margins (target: 70%)
-- ✅ <200ms latency P95 (target: <200ms)
+**"We've had zero downtime in six months. The platform is more reliable than our internal systems."**  
+— James Rodriguez, CTO, Global Logistics Company
 
 ---
 
-**Document Owner**: MARA AI Platform Product Team  
-**Last Updated**: June 15, 2026  
-**Next Review**: September 2026
+## MEDIA CONTACTS
 
+**Press Inquiries:**  
+press@mara.com  
+(214) 555-0100
+
+**Sales Inquiries:**  
+sales@mara.com  
+(214) 555-0200
+
+**Investor Relations:**  
+ir@mara.com  
+(214) 555-0300
+
+---
+
+**About MARA Holdings**
+
+MARA Holdings (NASDAQ: MARA) is the world's leading hybrid compute infrastructure company. The company's MARA AI Platform enables businesses of any size to deploy production AI workloads in minutes, without infrastructure expertise or coding. For more information, visit www.mara.com/ai-platform
