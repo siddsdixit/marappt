@@ -291,6 +291,17 @@
             height: 450px !important;
             margin: 0 !important;
             padding: 0 !important;
+            animation: marveyOrbit 30s linear infinite;
+            transform-origin: center center;
+        }
+        
+        @keyframes marveyOrbit {
+            from {
+                transform: translate(-50%, -50%) rotate(0deg);
+            }
+            to {
+                transform: translate(-50%, -50%) rotate(360deg);
+            }
         }
         
         .marvey-agent {
